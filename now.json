@@ -1,1 +1,8 @@
-{}
+
+{
+    "version": 2,
+    "name": "simplewebrtc-messenger",
+    "builds": [
+        { "src": "node-server/index.js", "use": "@now/node-server" }
+    ]
+}
