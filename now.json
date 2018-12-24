@@ -3,6 +3,5 @@
     "name": "simplewebrtc",
     "builds": [
         { "src": "public/", "use": "@now/static" }
-    ],
-    "root": "public/"
+    ]
 }
