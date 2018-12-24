@@ -1,7 +1,8 @@
 {
     "version": 2,
-    "name": "nodejs",
+    "name": "simplewebrtc",
     "builds": [
-        { "src": "*.js", "use": "@now/node" }
-    ]
+        { "src": "public/", "use": "@now/static" }
+    ],
+    "root": "public/"
 }
