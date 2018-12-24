@@ -1,7 +1,6 @@
-
 {
     "version": 2,
-    "name": "simplewebrtc-messenger",
+    "name": "nodejs",
     "builds": [
         { "src": "*.js", "use": "@now/node" }
     ]
