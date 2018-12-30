@@ -1,12 +1,7 @@
 {
-    "version": 2,
-    "name": "vchat-app",
-    "type": "npm",
-    "forwardNpm": true,
-    "env": {
-        "NODE_ENV": "production"
-    },
-    "engines": {
-        "node": "7.4.0"
-    }
+  "version": 2,
+  "name": "vchat-app",
+  "builds": [
+    { "src": "*/server.js", "use": "@now/node-server" }
+  ]
 }
