@@ -1,7 +1,7 @@
 {
-  "version": 2,
-  "name": "vchat-app",
-  "builds": [
-    { "src": "server.js", "use": "@now/node" }
-  ]
+    "version": 2,
+    "name": "vchat-app",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+    ]
 }
