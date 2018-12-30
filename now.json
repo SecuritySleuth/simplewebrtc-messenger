@@ -2,7 +2,7 @@
   "version": 2,
   "name": "vchat-app",
   "builds": [
-    { "src": "server.js", "use": "@now/node-server" }
+    { "src": "server.js", "use": "@now/node" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "server.js" }
